@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Layout for the list of books -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatalogActivity">
+
+    <ListView
+        android:id="@+id/list_view_books"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/colorPrimary"
+        android:dividerHeight="1dp"
+        android:padding="10dp" />
+
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/empty_shelter_image"
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/books_empy_textview" />
+
+        <TextView
+            android:id="@+id/empty_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_shelter_image"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif-medium"
+            android:paddingTop="18dp"
+            android:text="@string/empty_view_title"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/empty_view_color" />
+
+        <TextView
+            android:id="@+id/empty_subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/empty_title_text"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:paddingTop="8dp"
+            android:text="@string/empty_view_subtitle"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="@color/empty_view_color"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/plus_icon_fab"
+        app:fabCustomSize="70dp" />
+
+</RelativeLayout>

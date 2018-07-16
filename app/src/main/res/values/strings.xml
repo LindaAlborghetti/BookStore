@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Book Store</string>
+
+    <!-- Actions for Settings menu -->
+    <string name="action_one">New Default Book</string>
+    <string name="action_two">Delete All Books</string>
+    <string name="action_three">Delete</string>
+    <string name="action_four">Save</string>
+
+    <!-- Activity names -->
+    <string name="catalog_activity">Books Store</string>
+    <string name="editor_activity">Add a Book</string>
+
+    <!-- Strings for Editor Activity-->
+    <string name="title">Title</string>
+    <string name="author">Author</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="supplier">Supplier</string>
+    <string name="phone">Phone</string>
+
+    <string name="insert_title">Insert Title</string>
+    <string name="insert_author">Insert Author</string>
+    <string name="insert_price">Insert Price</string>
+    <string name="insert_name">Insert Name</string>
+    <string name="insert_phone">Insert Number</string>
+
+    <!-- Toast message in editor when new book has been successfully inserted -->
+    <string name="editor_insert_book_successful">Book successfully saved</string>
+
+    <!-- Toast message in editor when new book has failed to be inserted -->
+    <string name="editor_insert_book_failed">Error with saving book</string>
+
+    <!-- Title for the empty TextView -->
+    <string name="empty_view_title">Your library is empty...</string>
+
+    <!-- Subtitle text for the empty TextView -->
+    <string name="empty_view_subtitle">Add a book and start reading.</string>
+
+    <!-- Order Now Button -->
+    <string name="order_now">Order Now</string>
+
+    <!-- plus button -->
+    <string name="plus_sign">+</string>
+
+    <!-- minus button -->
+    <string name="minus_sign">-</string>
+
+    <!-- zero default value -->
+    <string name="default_zero">0</string>
+
+    <!-- sale button -->
+    <string name="sale_button">Sale</string>
+
+    <!-- Title for activity to add a new book -->
+    <string name="editor_activity_title_new_book">Add Book</string>
+
+    <!-- Title for activity to edit an existing  book -->
+    <string name="editor_activity_title_edit_book">Edit Book</string>
+
+    <!-- Toast message for book that was successfully updated -->
+    <string name="editor_update_book_successful">Book updated</string>
+
+    <!-- Toast message for book who has failed to be updated  -->
+    <string name="editor_update_book_failed">Error with updating book</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current book -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Toast message in editor when current book was successfully deleted -->
+    <string name="editor_delete_book_successful">Book deleted</string>
+
+    <!-- Toast message in editor when current book has failed to be deleted -->
+    <string name="editor_delete_book_failed">Error with deleting book</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current book -->
+    <string name="delete_dialog_msg">Delete this book?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current book -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current book -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for the price if the price is missing -->
+    <string name="unknown_price">Price missing</string>
+
+</resources>
